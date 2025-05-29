@@ -1,0 +1,20 @@
+# Ignore all node_modules everywhere
+**/node_modules/
+
+# Ignore all env files except example files
+**/.env
+**/.env.local
+**/.env.*
+
+# Allow .env.example and .env.local.example files
+!**/.env.example
+!**/.env.local.example
+
+# Ignore frontend build output
+/frontend/.next/
+/frontend/out/
+
+# Ignore backend build output
+/backend/build/
+/backend/public/
+/backend/dist/
